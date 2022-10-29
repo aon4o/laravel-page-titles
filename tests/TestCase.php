@@ -2,9 +2,9 @@
 
 namespace Aon2003\PageTitles\Tests;
 
+use Aon2003\PageTitles\PageTitlesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Aon2003\PageTitles\PageTitlesServiceProvider;
 
 class TestCase extends Orchestra
 {
