@@ -1,24 +1,19 @@
-# :package_description
+# A simple package that makes it easier to set a page title in a Laravel application.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/:vendor_slug/:package_slug/run-tests?label=tests)](https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/:vendor_slug/:package_slug/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-<!--delete-->
----
-This repo can be used to scaffold a Laravel package. Follow these steps to get started:
+[![GitHub issues](https://img.shields.io/github/issues/aon2003/laravel-page-titles)](https://github.com/aon2003/laravel-page-titles/issues)
+[![GitHub forks](https://img.shields.io/github/forks/aon2003/laravel-page-titles)](https://github.com/aon2003/laravel-page-titles/network)
+[![GitHub stars](https://img.shields.io/github/stars/aon2003/laravel-page-titles)](https://github.com/aon2003/laravel-page-titles/stargazers)
+[![GitHub license](https://img.shields.io/github/license/aon2003/laravel-page-titles)](https://github.com/aon2003/laravel-page-titles/blob/main/LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/aon2003/laravel-page-titles.svg)](https://packagist.org/packages/aon2003/laravel-page-titles)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/aon2003/laravel-page-titles/run-tests?label=tests)](https://github.com/aon2003/laravel-page-titles/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/aon2003/laravel-page-titles/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/aon2003/laravel-page-titles/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/aon2003/laravel-page-titles.svg)](https://packagist.org/packages/aon2003/laravel-page-titles)
 
-1. Press the "Use this template" button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files.
-3. Have fun creating your package.
-4. If you need help creating a package, consider picking up our <a href="https://laravelpackage.training">Laravel Package Training</a> video course.
----
-<!--/delete-->
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/:package_name.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/:package_name)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-page-titles.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-page-titles)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
@@ -29,20 +24,20 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require aon2003/laravel-page-titles
 ```
 
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-migrations"
+php artisan vendor:publish --tag="laravel-page-titles-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-config"
+php artisan vendor:publish --tag="laravel-page-titles-config"
 ```
 
 This is the contents of the published config file:
@@ -55,14 +50,14 @@ return [
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-views"
+php artisan vendor:publish --tag="laravel-page-titles-views"
 ```
 
 ## Usage
 
 ```php
-$variable = new VendorName\Skeleton();
-echo $variable->echoPhrase('Hello, VendorName!');
+$pageTitles = new Aon2003\PageTitles();
+echo $pageTitles->echoPhrase('Hello, Aon2003!');
 ```
 
 ## Testing
@@ -85,7 +80,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Alex Naida](https://github.com/aon2003)
 - [All Contributors](../../contributors)
 
 ## License

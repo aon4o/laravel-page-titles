@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Aon2003\PageTitles\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PageTitlesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-page-titles';
 
     public $description = 'My command';
 

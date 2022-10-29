@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "aon2003/laravel-page-titles",
+    "description": "A simple package that makes it easier to set a page title in a Laravel application.",
     "keywords": [
-        ":vendor_name",
+        "aon2003",
         "laravel",
-        ":package_slug"
+        "laravel-page-titles"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/aon2003/laravel-page-titles",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Alex Naida",
+            "email": "a.o.naidenov@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Aon2003\\PageTitles\\": "src",
+            "Aon2003\\PageTitles\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Aon2003\\PageTitles\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Aon2003\\PageTitles\\PageTitlesServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "PageTitles": "Aon2003\\PageTitles\\Facades\\PageTitles"
             }
         }
     },
