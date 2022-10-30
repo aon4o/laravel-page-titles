@@ -8,7 +8,7 @@ declare(strict_types=1);
 return [
     /*
     |--------------------------------------------------------------------------
-    | Application Name
+    | Translation File Name
     |--------------------------------------------------------------------------
     |
     | Used to find the page titles translations.
