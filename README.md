@@ -30,7 +30,7 @@ Next, you need to publish a config file and a language file:
 php artisan vendor:publish --tag="laravel-page-titles"
 ```
 
-Lastly, you need to add the custom middleware to your web's middleware group your Kernel file.
+Lastly, you need to add the custom middleware to your web's middleware group in your Kernel file.
 
 ```php
 'web' => [
