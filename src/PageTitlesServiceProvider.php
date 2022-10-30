@@ -2,9 +2,9 @@
 
 namespace Aon2003\PageTitles;
 
+use Aon2003\PageTitles\Commands\PageTitlesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Aon2003\PageTitles\Commands\PageTitlesCommand;
 
 class PageTitlesServiceProvider extends PackageServiceProvider
 {
