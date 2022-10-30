@@ -5,7 +5,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/aon2003/laravel-page-titles)](https://github.com/aon2003/laravel-page-titles/stargazers)
 [![GitHub license](https://img.shields.io/github/license/aon2003/laravel-page-titles)](https://github.com/aon2003/laravel-page-titles/blob/main/LICENSE.md)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/aon2003/laravel-page-titles.svg)](https://packagist.org/packages/aon2003/laravel-page-titles)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/aon2003/laravel-page-titles/run-tests?label=tests)](https://github.com/aon2003/laravel-page-titles/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/aon2003/laravel-page-titles/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/aon2003/laravel-page-titles/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/aon2003/laravel-page-titles.svg)](https://packagist.org/packages/aon2003/laravel-page-titles)
 
