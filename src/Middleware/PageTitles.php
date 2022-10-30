@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Aon2003\PageTitles\Middleware;
 
@@ -15,7 +15,7 @@ class PageTitles
     /**
      * Handle an incoming request.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @param Closure(Request): (Response|RedirectResponse) $next
      * @return Response|RedirectResponse
      */
@@ -23,7 +23,7 @@ class PageTitles
     {
         $route = $request->route()->getName();
 
-        View::share('page_title', config('page-titles.translation_file_name') . '.' . $route);
+        View::share('page_title', config('page-titles.translation_file_name').'.'.$route);
 
         return $next($request);
     }
