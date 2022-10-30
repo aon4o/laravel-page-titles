@@ -86,7 +86,7 @@ return [
 
 `Controller`:
 ```php
-def index() {
+function index() {
     $page_props = ['Alex'];
     
     return view('{page}', compact('page_props'));
