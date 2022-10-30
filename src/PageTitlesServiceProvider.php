@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Aon2003\PageTitles;
 
@@ -11,7 +11,7 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 class PageTitlesServiceProvider extends PackageServiceProvider
 {
     /**
-     * @param Package $package
+     * @param  Package  $package
      * @return void
      */
     public function configurePackage(Package $package): void
